@@ -1,6 +1,6 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
     const tg = window.Telegram.WebApp
     const onClose = () => {
         tg.close()
@@ -15,4 +15,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
